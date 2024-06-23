@@ -61,6 +61,22 @@ country_event = {
 		remove_mission = mdchaos_random_incoming
 		country_event = mdchaos.1
 	}
+
+	option = {
+		name = mdchaos.2.d
+		set_variable = { mdchaos_time = 350 }
+		remove_mission = mdchaos_incoming
+		remove_mission = mdchaos_random_incoming
+		country_event = mdchaos.1
+	}
+
+	option = {
+		name = mdchaos.2.e
+		set_variable = { mdchaos_time = -1 }
+		remove_mission = mdchaos_incoming
+		remove_mission = mdchaos_random_incoming
+		country_event = mdchaos.1
+	}
 }
 
 country_event = {
